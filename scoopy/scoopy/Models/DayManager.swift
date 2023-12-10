@@ -10,8 +10,10 @@ import Foundation
 class DayManager {
     var quarters: [Quarter] = []
     
-    func generateQuarters(from wakeUpTime: Date) {
+    func generateQuarters(from wakeUpTime: Date?) {
         quarters.removeAll()
+        
+        guard let wakeUpTime = wakeUpTime else { return }
         
         // Calculate the start of the first quarter
         var calendar = Calendar.current

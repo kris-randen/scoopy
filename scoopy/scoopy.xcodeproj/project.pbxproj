@@ -18,6 +18,7 @@
 		EE773CF42B25A91700BCB5F3 /* Quarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF32B25A91700BCB5F3 /* Quarter.swift */; };
 		EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF52B25ABB800BCB5F3 /* DayManager.swift */; };
 		EE773CF82B25B32100BCB5F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF72B25B32100BCB5F3 /* Constants.swift */; };
+		EE773CFA2B25B78800BCB5F3 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF92B25B78800BCB5F3 /* ActivityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		EE773CF32B25A91700BCB5F3 /* Quarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarter.swift; sourceTree = "<group>"; };
 		EE773CF52B25ABB800BCB5F3 /* DayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayManager.swift; sourceTree = "<group>"; };
 		EE773CF72B25B32100BCB5F3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EE773CF92B25B78800BCB5F3 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		EE773CEF2B25A89600BCB5F3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				EE773CF92B25B78800BCB5F3 /* ActivityViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			files = (
 				EE773CF42B25A91700BCB5F3 /* Quarter.swift in Sources */,
 				EE773CC72B25A35200BCB5F3 /* ContentView.swift in Sources */,
+				EE773CFA2B25B78800BCB5F3 /* ActivityViewModel.swift in Sources */,
 				EE773CF22B25A8E600BCB5F3 /* UserActivity.swift in Sources */,
 				EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */,
 				EE773CC52B25A35200BCB5F3 /* scoopyApp.swift in Sources */,
