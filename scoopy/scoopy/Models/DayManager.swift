@@ -31,13 +31,7 @@ class DayManager {
         
         // Generate 96 quarters 15 mins each
         quarters = Constants.RANGE_OF_QUARTERS_IN_A_DAY.compactMap {
-            createQuarter(at: $0, from: firstQuarterStart, using: calendar)
+            Quarter.create(at: $0, from: firstQuarterStart, using: calendar)
         }
-    }
-    
-    private func createQuarter(at index: Int, from startTime: Date, using calendar: Calendar) -> Quarter? {
-        guard let quarterStart = calendar.date(byAdding: .minute, value: index * Constants.NUM_QUARTERS_IN_AN_HOUR, to: startTime) else { return nil }
-        let quarterEnd = calendar.date(byAdding: .minute, value: Constants.NUM_MINS_IN_A_QUARTER - 1, to: quarterStart)!
-        return Quarter(index: index + 1, startTime: quarterStart, endTime: quarterEnd)
     }
 }

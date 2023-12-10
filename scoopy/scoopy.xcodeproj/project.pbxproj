@@ -19,6 +19,9 @@
 		EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF52B25ABB800BCB5F3 /* DayManager.swift */; };
 		EE773CF82B25B32100BCB5F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF72B25B32100BCB5F3 /* Constants.swift */; };
 		EE773CFA2B25B78800BCB5F3 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF92B25B78800BCB5F3 /* ActivityViewModel.swift */; };
+		EE773CFC2B25BE1B00BCB5F3 /* WakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CFB2B25BE1B00BCB5F3 /* WakeUpView.swift */; };
+		EE773CFE2B25BE3900BCB5F3 /* QuartersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CFD2B25BE3900BCB5F3 /* QuartersView.swift */; };
+		EE773D002B25BE7100BCB5F3 /* QuarterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CFF2B25BE7100BCB5F3 /* QuarterRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		EE773CF52B25ABB800BCB5F3 /* DayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayManager.swift; sourceTree = "<group>"; };
 		EE773CF72B25B32100BCB5F3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EE773CF92B25B78800BCB5F3 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		EE773CFB2B25BE1B00BCB5F3 /* WakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpView.swift; sourceTree = "<group>"; };
+		EE773CFD2B25BE3900BCB5F3 /* QuartersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuartersView.swift; sourceTree = "<group>"; };
+		EE773CFF2B25BE7100BCB5F3 /* QuarterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuarterRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 		EE773CEE2B25A88A00BCB5F3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EE773CFB2B25BE1B00BCB5F3 /* WakeUpView.swift */,
+				EE773CFF2B25BE7100BCB5F3 /* QuarterRow.swift */,
+				EE773CFD2B25BE3900BCB5F3 /* QuartersView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,9 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE773CFE2B25BE3900BCB5F3 /* QuartersView.swift in Sources */,
 				EE773CF42B25A91700BCB5F3 /* Quarter.swift in Sources */,
 				EE773CC72B25A35200BCB5F3 /* ContentView.swift in Sources */,
+				EE773D002B25BE7100BCB5F3 /* QuarterRow.swift in Sources */,
 				EE773CFA2B25B78800BCB5F3 /* ActivityViewModel.swift in Sources */,
+				EE773CFC2B25BE1B00BCB5F3 /* WakeUpView.swift in Sources */,
 				EE773CF22B25A8E600BCB5F3 /* UserActivity.swift in Sources */,
 				EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */,
 				EE773CC52B25A35200BCB5F3 /* scoopyApp.swift in Sources */,
