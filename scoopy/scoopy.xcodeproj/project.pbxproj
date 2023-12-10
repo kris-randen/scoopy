@@ -14,6 +14,9 @@
 		EE773CD62B25A35500BCB5F3 /* scoopyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CD52B25A35500BCB5F3 /* scoopyTests.swift */; };
 		EE773CE02B25A35600BCB5F3 /* scoopyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CDF2B25A35600BCB5F3 /* scoopyUITests.swift */; };
 		EE773CE22B25A35600BCB5F3 /* scoopyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CE12B25A35600BCB5F3 /* scoopyUITestsLaunchTests.swift */; };
+		EE773CF22B25A8E600BCB5F3 /* UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF12B25A8E600BCB5F3 /* UserActivity.swift */; };
+		EE773CF42B25A91700BCB5F3 /* Quarter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF32B25A91700BCB5F3 /* Quarter.swift */; };
+		EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE773CF52B25ABB800BCB5F3 /* DayManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		EE773CDB2B25A35600BCB5F3 /* scoopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scoopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE773CDF2B25A35600BCB5F3 /* scoopyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoopyUITests.swift; sourceTree = "<group>"; };
 		EE773CE12B25A35600BCB5F3 /* scoopyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scoopyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE773CF12B25A8E600BCB5F3 /* UserActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivity.swift; sourceTree = "<group>"; };
+		EE773CF32B25A91700BCB5F3 /* Quarter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quarter.swift; sourceTree = "<group>"; };
+		EE773CF52B25ABB800BCB5F3 /* DayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,9 @@
 		EE773CC32B25A35200BCB5F3 /* scoopy */ = {
 			isa = PBXGroup;
 			children = (
+				EE773CF02B25A89C00BCB5F3 /* Models */,
+				EE773CEF2B25A89600BCB5F3 /* ViewModels */,
+				EE773CEE2B25A88A00BCB5F3 /* Views */,
 				EE773CC42B25A35200BCB5F3 /* scoopyApp.swift */,
 				EE773CC62B25A35200BCB5F3 /* ContentView.swift */,
 				EE773CC82B25A35500BCB5F3 /* Assets.xcassets */,
@@ -125,6 +134,30 @@
 				EE773CE12B25A35600BCB5F3 /* scoopyUITestsLaunchTests.swift */,
 			);
 			path = scoopyUITests;
+			sourceTree = "<group>";
+		};
+		EE773CEE2B25A88A00BCB5F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE773CEF2B25A89600BCB5F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EE773CF02B25A89C00BCB5F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE773CF12B25A8E600BCB5F3 /* UserActivity.swift */,
+				EE773CF32B25A91700BCB5F3 /* Quarter.swift */,
+				EE773CF52B25ABB800BCB5F3 /* DayManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE773CF42B25A91700BCB5F3 /* Quarter.swift in Sources */,
 				EE773CC72B25A35200BCB5F3 /* ContentView.swift in Sources */,
+				EE773CF22B25A8E600BCB5F3 /* UserActivity.swift in Sources */,
+				EE773CF62B25ABB800BCB5F3 /* DayManager.swift in Sources */,
 				EE773CC52B25A35200BCB5F3 /* scoopyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
