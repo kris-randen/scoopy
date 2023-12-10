@@ -8,7 +8,7 @@
 import Foundation
 
 struct UserActivity: Codable {
-    var wakeUpTime: Date?
+    var wakeUpTime: Date? = Date.now
     var sleepTime: Date?
 }
 

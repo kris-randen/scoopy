@@ -33,5 +33,7 @@ class DayManager {
         quarters = Constants.RANGE_OF_QUARTERS_IN_A_DAY.compactMap {
             Quarter.create(at: $0, from: firstQuarterStart, using: calendar)
         }
+        
+        print("Quarters = \(quarters)")
     }
 }

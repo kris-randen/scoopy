@@ -28,6 +28,8 @@ class ActivityViewModel: ObservableObject {
         if let sleepTime = sleepTime { userActivity.sleepTime = sleepTime }
     }
     
+    func quarters() -> [Quarter] { return dayManager.quarters }
+    
     private func updateQuarters() {
         dayManager.generateQuarters(from: userActivity.wakeUpTime)
     }

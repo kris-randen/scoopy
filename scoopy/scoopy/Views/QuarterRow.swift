@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuarterRow: View {
-    var quarter = Quarter.create()!
+    var quarter: Quarter
     
     var body: some View {
         HStack {
@@ -31,5 +31,5 @@ struct QuarterRow: View {
 }
 
 #Preview {
-    QuarterRow()
+    QuarterRow(quarter: Quarter.create()!)
 }
