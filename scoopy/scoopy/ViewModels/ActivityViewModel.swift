@@ -22,6 +22,11 @@ class ActivityViewModel: ObservableObject {
         updateQuarters()
     }
     
+    func registerWakeUpTime() {
+        updateUserActivity(wakeUpTime: Date.now)
+        updateQuarters()
+    }
+    
     func updateUserActivity(wakeUpTime: Date? = nil, sleepTime: Date? = nil) {
         // Update wake-up and sleep times if recorded already
         if let wakeUpTime = wakeUpTime { userActivity.wakeUpTime = wakeUpTime }

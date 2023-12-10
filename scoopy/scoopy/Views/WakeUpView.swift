@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct WakeUpView: View {
+    @ObservedObject var viewModel = ActivityViewModel()
+    @State private var isActive = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Good Morning!")
+                Button("I'm up") {
+                    viewModel.registerWakeUpTime()
+                    isActive = true
+                }
+            }
+            .navigationDestination(isPresented: $isActive) {
+                QuartersView(viewModel: viewModel)
+            }
+        }
+        
     }
 }
 

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuartersView: View {
-    @ObservedObject var viewModel = ActivityViewModel()
+    @ObservedObject var viewModel: ActivityViewModel
     
     var body: some View {
         List(viewModel.quarters()) {
@@ -19,5 +19,5 @@ struct QuartersView: View {
 }
 
 #Preview {
-    QuartersView()
+    QuartersView(viewModel: ActivityViewModel())
 }
