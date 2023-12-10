@@ -21,7 +21,7 @@ struct WakeUpView: View {
                 }
             }
             .navigationDestination(isPresented: $isActive) {
-                QuartersView(viewModel: viewModel)
+                QuartersNotifyView(viewModel: viewModel)
             }
         }
         
